@@ -13,7 +13,7 @@ classes = ["犬","猫"]
 image_size = 64
 
 UPLOAD_FOLDER = "./uploads"
-ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
+ALLOWED_EXTENSIONS = set([ 'jpg', 'jpeg', 'gif','png'])
 
 app = Flask(__name__)
 
