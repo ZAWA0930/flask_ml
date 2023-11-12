@@ -1,0 +1,130 @@
+header {
+    background-color: #660000;
+    height: 45px;
+    margin-top: -8px;
+    margin-left:-8px;
+    margin-right:-8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    opacity:0.7;
+}
+
+.header-logo {
+    color: #fff;
+    font-size: 20px;
+    margin: 15px 25px;
+}
+
+.container{
+    background-image: url(img2.png);
+    background-size:cover;
+    position: relative;
+    
+    
+    
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-top:100px;
+    text-align: center;
+}
+
+.main {
+    height: 600px;
+}
+
+h2 {
+    position:  absolute;        
+    color: rgb(255, 0, 0);
+    margin-bottom: 45px;
+    padding-top: -40px;
+    vertical-align: 200%;
+    position: 70px;
+    top: -100px;
+    left:  30%;  
+    text-align: center;
+    font-size:50px;
+   
+}
+
+p {
+    position:  absolute;       
+    font-size:35px;
+    color: rgb(0, 0, 255);
+    margin: 20px 0px 150px 0px;
+    text-align: center;
+    padding-top: -50px;
+    top: 450px;
+    left:  30%;  
+}
+
+.answer {
+    position:  absolute; 
+    top: 450px;
+    left:  40%;  
+    color: rgb(65, 64, 63);
+    margin: 160px 0px 0px 0px;
+    text-align: center;
+    font-size:40px;
+    font-family: 'Arial Narrow Bold';
+    background-color: rgb(172, 170, 169);
+}
+
+form {
+    position:  absolute;      
+    text-align: center;
+    top: 510px;
+    left:  35%;  
+}
+
+footer {
+    position:  absolute; 
+    top: 80px;
+      
+    background-color: #F7F7F7;
+    height: 60px;
+    margin: -8px;
+    position: relative;
+}
+
+small {
+    margin: 20px 5px;
+    position: absolute;
+    float:left;
+    bottom: 0;
+}
+
+.btn{
+    font-size:20px;
+    padding:15px 20px;
+    color:rgb(89, 107, 107);
+    background-color:#cbe3f7;
+    border-radius: 6px;
+    opacity:0.8;
+    font-family: 'Arial Narrow Bold';
+}
+
+.btn:hover{
+    opacity:1;
+    cursor: pointer;
+}
+
+.file_choose{
+    display:none;
+    font-size:15px;
+    padding:0px 0px;
+    color:rgb(0, 0, 0);  
+}
+
+label{
+    color:rgb(0, 0, 0);  
+    font-size:45px;
+    margin-right:20px;
+    opacity:0.9;
+    text-align: center;
+}
+
+label:hover{
+    opacity:1;
+    cursor: pointer;
+}
