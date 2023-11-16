@@ -10,6 +10,8 @@ flaskを使用し、tensorflowで学習させたモデルを使った犬猫を�
 ファイルから画像を選び、判定開始ボタンを押すと以下の画像のように犬か猫を判定できます
 ![image](https://github.com/ZAWA0930/flask_ml/assets/93305831/5a5ac3be-e8a7-43c0-a67c-91f22dfcbbb2)
 
+# Feature
+画像認識
 
 # Requirement
 
